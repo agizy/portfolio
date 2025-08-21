@@ -1,0 +1,110 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Artist Portfolio</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/themes.css">
+</head>
+<body>
+    <main class="container">
+        <header class="site-header">
+            <div class="brand">
+                <h1>Artist<span class="accent-dot">.</span></h1>
+                <p class="tagline">Nothing but pixels.</p>
+            </div>
+            <nav class="header-nav">
+                <button id="themeToggle" class="theme-btn" aria-label="Change theme">
+                    <span class="theme-icon">○</span>
+                </button>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <h2 class="hero-title">Digital Art & Design</h2>
+            <p class="hero-subtitle">Minimalist approach to visual storytelling.</p>
+        </section>
+
+        <section class="portfolio-grid" id="portfolio">
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="assets/A1.png" alt="Anime Character Illustration 1" loading="lazy">
+                </div>
+                <div class="portfolio-info">
+                    <h3>Anime Character Portrait</h3>
+                    <p>2D Illustration</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="assets/A2.png" alt="Anime Character Illustration 2" loading="lazy">
+                </div>
+                <div class="portfolio-info">
+                    <h3>Fantasy Anime Scene</h3>
+                    <p>2D Illustration</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="assets/A3.png" alt="Anime Character Illustration 3" loading="lazy">
+                </div>
+                <div class="portfolio-info">
+                    <h3>Magical Girl Design</h3>
+                    <p>2D Illustration</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="assets/A4.png" alt="Anime Character Illustration 4" loading="lazy">
+                </div>
+                <div class="portfolio-info">
+                    <h3>Anime School Setting</h3>
+                    <p>2D Illustration</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="assets/A5.png" alt="Anime Character Illustration 5" loading="lazy">
+                </div>
+                <div class="portfolio-info">
+                    <h3>Cyberpunk Anime Style</h3>
+                    <p>2D Illustration</p>
+                </div>
+            </div>
+            
+            <div class="portfolio-item">
+                <div class="portfolio-image">
+                    <img src="assets/A6.png" alt="Anime Character Illustration 6" loading="lazy">
+                </div>
+                <div class="portfolio-info">
+                    <h3>Traditional Anime Art</h3>
+                    <p>2D Illustration</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <h2>About</h2>
+            <p>Creating meaningful digital experiences through purposeful design. Every pixel serves a function.</p>
+        </section>
+
+        <footer class="site-footer">
+            <div class="footer-content">
+                <p>&copy; 2025 Digital Artist. All rights reserved.</p>
+                <div class="theme-selector">
+                    <span class="theme-label">Theme:</span>
+                    <span id="currentTheme" class="current-theme">light</span>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script src="js/theme-switch.js"></script>
+</body>
+</html>

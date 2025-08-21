@@ -1,0 +1,1 @@
+Code is MIT-licensed; artworks are CC BY-NC-ND 4.0 (see LICENSE-ART).
